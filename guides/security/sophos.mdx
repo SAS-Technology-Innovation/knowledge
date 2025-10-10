@@ -1,0 +1,518 @@
+---
+title: "Sophos Endpoint Security"
+description: "Understanding Sophos antivirus and endpoint protection on SAS devices"
+icon: "shield-virus"
+---
+
+## What is Sophos?
+
+Sophos is the **endpoint security software** that protects all SAS devices from viruses, malware, and cyber threats. It runs quietly in the background, keeping your device and data safe.
+
+<Note>
+  **All SAS school devices** have Sophos installed automatically to provide comprehensive security protection.
+</Note>
+
+## What Sophos Does
+
+<CardGroup cols={2}>
+  <Card title="Real-Time Protection" icon="shield-halved" color="#1A4190">
+    **Always Watching**
+
+    Sophos scans files and downloads in real-time to block threats before they can harm your device.
+  </Card>
+
+  <Card title="Malware Detection" icon="virus" color="#E51322">
+    **Block Bad Software**
+
+    Identifies and removes viruses, spyware, ransomware, and other malicious software.
+  </Card>
+
+  <Card title="Web Protection" icon="globe" color="#1A4190">
+    **Safe Browsing**
+
+    Blocks dangerous websites and prevents phishing attacks while you browse.
+  </Card>
+
+  <Card title="Automatic Updates" icon="arrows-rotate" color="#E51322">
+    **Stay Current**
+
+    Sophos updates itself automatically with the latest threat definitions daily.
+  </Card>
+</CardGroup>
+
+## How Sophos Works
+
+### Background Protection
+
+<Steps>
+  <Step title="Continuous Monitoring">
+    Sophos runs quietly in the background, monitoring all activity on your device.
+  </Step>
+
+  <Step title="Threat Detection">
+    When a potential threat is detected, Sophos immediately blocks and quarantines it.
+  </Step>
+
+  <Step title="Automatic Response">
+    Infected files are isolated and can be removed or cleaned automatically.
+  </Step>
+
+  <Step title="Reporting">
+    Serious threats are reported to IT for investigation and response.
+  </Step>
+</Steps>
+
+<Info>
+  **You won't see Sophos running** most of the time - it works silently in the background to keep you safe!
+</Info>
+
+## Sophos on Different Devices
+
+<Tabs>
+  <Tab title="iPads & MacBooks">
+    **School-Managed Apple Devices:**
+
+    - **Sophos Intercept X** installed via JAMF
+    - Runs automatically on startup
+    - No user configuration needed
+    - Integrated with macOS security
+    - Real-time scanning enabled
+
+    **What It Protects:**
+    - Downloads and files
+    - Web browsing
+    - Email attachments
+    - USB drives and external storage
+    - Network connections
+  </Tab>
+
+  <Tab title="Windows (Finance & Facilities)">
+    **Windows Computers:**
+
+    - **Sophos Endpoint Protection** installed
+    - Integrates with Windows Defender
+    - Managed through Sophos Central
+    - Firewall protection included
+    - Device control policies
+
+    **Additional Features:**
+    - Application control
+    - Data loss prevention
+    - Encryption management
+    - Advanced threat protection
+  </Tab>
+
+  <Tab title="BYOD Devices">
+    **Personal Devices (High School):**
+
+    - Sophos NOT installed on BYOD
+    - Students responsible for own security
+    - Must have personal antivirus
+    - SAS network provides some protection
+
+    <Warning>
+      **BYOD Users:** Install your own antivirus software and keep it updated!
+    </Warning>
+  </Tab>
+</Tabs>
+
+## Sophos Features
+
+### What Sophos Protects Against
+
+<AccordionGroup>
+  <Accordion title="Viruses & Malware" icon="bug">
+    **Common Threats Blocked:**
+
+    - **Viruses** - Programs that spread and damage files
+    - **Trojans** - Disguised malware that steals data
+    - **Worms** - Self-replicating malware
+    - **Spyware** - Software that monitors your activity
+    - **Adware** - Unwanted advertising software
+    - **Ransomware** - Malware that locks your files
+
+    **How Sophos Helps:**
+    - Scans all downloads before they open
+    - Monitors running applications
+    - Blocks known malicious files
+    - Detects suspicious behavior
+  </Accordion>
+
+  <Accordion title="Web Threats & Phishing" icon="fishing">
+    **Online Protection:**
+
+    **Phishing Attacks:**
+    - Fake emails pretending to be legitimate
+    - Fraudulent websites stealing passwords
+    - Social engineering attempts
+
+    **Sophos Web Protection:**
+    - ✅ Blocks known phishing sites
+    - ✅ Warns about suspicious links
+    - ✅ Prevents credential theft
+    - ✅ Checks website reputation
+    - ✅ Filters malicious content
+
+    <Tip>
+      Even with Sophos protection, always verify emails and websites before clicking links or entering passwords!
+    </Tip>
+  </Accordion>
+
+  <Accordion title="Ransomware Protection" icon="lock">
+    **Advanced Ransomware Defense:**
+
+    **What is Ransomware?**
+    - Malware that encrypts your files
+    - Demands payment to unlock them
+    - Can spread across networks
+
+    **Sophos CryptoGuard:**
+    - Detects ransomware behavior
+    - Automatically backs up files being modified
+    - Blocks encryption attempts
+    - Restores files if attacked
+
+    **Additional Protection:**
+    - Regular backups to Google Drive
+    - File versioning and recovery
+    - Network isolation of infected devices
+  </Accordion>
+</AccordionGroup>
+
+## Using Sophos
+
+### Checking Sophos Status
+
+<Tabs>
+  <Tab title="macOS (MacBook)">
+    **Check Sophos on MacBook:**
+
+    1. Look for **Sophos shield icon** in menu bar (top right)
+    2. Click the icon to see status
+    3. **Green shield** = Protected
+    4. **Yellow/Red shield** = Issue detected
+
+    **Or check in Applications:**
+    1. Open **Applications** folder
+    2. Find **Sophos** folder
+    3. Open **Sophos Endpoint** app
+    4. View protection status
+
+    **Menu Bar Options:**
+    - View scan results
+    - Check last update time
+    - See quarantined items
+    - Run manual scan (if needed)
+  </Tab>
+
+  <Tab title="Windows">
+    **Check Sophos on Windows:**
+
+    1. Look for **Sophos icon** in system tray (bottom right)
+    2. Right-click icon for menu
+    3. Click **Open Sophos Endpoint**
+    4. View dashboard and status
+
+    **Status Indicators:**
+    - ✅ Green = Protected and up to date
+    - ⚠️ Yellow = Attention needed
+    - ❌ Red = Critical issue
+
+    **Dashboard Shows:**
+    - Protection status
+    - Last scan time
+    - Update status
+    - Threat history
+  </Tab>
+</Tabs>
+
+### Running a Manual Scan
+
+Most of the time, Sophos scans automatically. However, you can run a manual scan:
+
+<Steps>
+  <Step title="Open Sophos">
+    **macOS:** Click Sophos icon in menu bar → Open Sophos Endpoint
+
+    **Windows:** System tray → Sophos Endpoint
+  </Step>
+
+  <Step title="Choose Scan Type">
+    - **Quick Scan** - Scans most common locations (5-10 min)
+    - **Full Scan** - Scans entire device (30-60 min)
+    - **Custom Scan** - Scan specific folders
+  </Step>
+
+  <Step title="Start Scan">
+    Click **Start Scan** button and wait for completion
+  </Step>
+
+  <Step title="Review Results">
+    Any threats found will be quarantined automatically
+  </Step>
+</Steps>
+
+<Note>
+  **When to run a manual scan:**
+  - After downloading files from unknown sources
+  - If device is acting strangely
+  - Before using a USB drive from outside SAS
+  - After visiting suspicious websites
+</Note>
+
+## What to Do When Sophos Finds a Threat
+
+### Threat Detected
+
+<AccordionGroup>
+  <Accordion title="Sophos Blocks a File" icon="ban">
+    **When Sophos blocks something:**
+
+    1. **Don't panic** - Sophos is doing its job!
+    2. **Read the alert** - See what was blocked and why
+    3. **File is quarantined** - Isolated so it can't harm your device
+    4. **Alert sent to IT** - IT team is notified of serious threats
+
+    **What Happens Next:**
+    - File stays in quarantine (safe)
+    - IT reviews the threat
+    - If it's a false positive, IT can restore it
+    - If it's real malware, it stays blocked
+  </Accordion>
+
+  <Accordion title="False Positives" icon="circle-question">
+    **Sophos blocked something safe:**
+
+    Sometimes Sophos blocks legitimate files by mistake:
+
+    **If you think it's a false positive:**
+    1. **Don't try to disable Sophos**
+    2. **Contact IT:** [ithelp@sas.edu.sg](mailto:ithelp@sas.edu.sg)
+    3. **Provide details:** What file, where from, why you need it
+    4. **IT will review:** They can whitelist safe files
+    5. **File restored:** If safe, IT can restore from quarantine
+
+    **Common False Positives:**
+    - Some educational software
+    - Development tools
+    - Scripts and automation tools
+    - Files from unusual sources
+  </Accordion>
+
+  <Accordion title="Persistent Threats or Infections" icon="triangle-exclamation">
+    **Device might be infected:**
+
+    **Warning Signs:**
+    - Multiple Sophos alerts
+    - Device running very slowly
+    - Unusual pop-ups or ads
+    - Programs opening by themselves
+    - Strange network activity
+
+    **Immediate Actions:**
+    1. **Disconnect from WiFi** - Prevent spread
+    2. **Contact IT immediately:** [ithelp@sas.edu.sg](mailto:ithelp@sas.edu.sg)
+    3. **Don't use the device** - Avoid spreading infection
+    4. **Bring to IT Help Desk** - Professional cleaning needed
+
+    **IT Will:**
+    - Deep scan with advanced tools
+    - Clean or reimage the device
+    - Restore from backup if needed
+    - Update security policies
+  </Accordion>
+</AccordionGroup>
+
+## Sophos Best Practices
+
+### Stay Protected
+
+<Tip>
+  **Security Best Practices:**
+
+  ✅ **Keep Sophos running** - Don't disable or quit the app
+
+  ✅ **Allow automatic updates** - Let Sophos update itself
+
+  ✅ **Trust the alerts** - If Sophos blocks something, there's a reason
+
+  ✅ **Report suspicious activity** - Contact IT if something seems wrong
+
+  ✅ **Don't download from untrusted sources** - Stick to approved apps and sites
+
+  ✅ **Think before clicking** - Verify links and attachments before opening
+</Tip>
+
+### What NOT to Do
+
+<Warning>
+  **Never Do These Things:**
+
+  ❌ Don't try to disable or uninstall Sophos
+
+  ❌ Don't ignore Sophos alerts or warnings
+
+  ❌ Don't try to restore quarantined files yourself
+
+  ❌ Don't disable real-time scanning
+
+  ❌ Don't download "cracked" or pirated software
+
+  ❌ Don't bypass security warnings
+</Warning>
+
+## Troubleshooting Sophos
+
+<AccordionGroup>
+  <Accordion title="Sophos icon is missing" icon="eye-slash">
+    **Can't see Sophos:**
+
+    **macOS:**
+    1. Check Applications → Sophos folder
+    2. Open Sophos Endpoint
+    3. Icon should appear in menu bar
+    4. If missing, contact IT to reinstall
+
+    **Windows:**
+    1. Check system tray (click ^ to expand)
+    2. Look for Sophos icon
+    3. Open from Start menu if needed
+    4. If not installed, contact IT
+  </Accordion>
+
+  <Accordion title="Sophos says 'Out of Date'" icon="calendar-xmark">
+    **Update issues:**
+
+    **Usually fixes itself:**
+    1. Sophos updates automatically
+    2. Wait 15-30 minutes
+    3. Restart your device
+    4. Check if status turns green
+
+    **If still out of date:**
+    1. Check internet connection
+    2. Manually check for updates in Sophos
+    3. Contact IT if persists
+  </Accordion>
+
+  <Accordion title="Sophos is slowing down my device" icon="gauge-simple-low">
+    **Performance issues:**
+
+    **During Scans:**
+    - Sophos scans can use CPU/memory
+    - Usually happens during scheduled scans
+    - Should complete in 15-30 minutes
+    - Device returns to normal after
+
+    **Constant Slowness:**
+    - Might indicate a problem
+    - Check what Sophos is scanning
+    - Contact IT: [ithelp@sas.edu.sg](mailto:ithelp@sas.edu.sg)
+    - IT can adjust scan schedules
+  </Accordion>
+
+  <Accordion title="Can't access a file or app" icon="ban">
+    **Sophos blocking needed files:**
+
+    1. **Check quarantine** - File might be there
+    2. **Don't restore yourself** - Could be dangerous
+    3. **Contact IT:** [ithelp@sas.edu.sg](mailto:ithelp@sas.edu.sg)
+    4. **Provide details:**
+       - What file/app
+       - Where it's from
+       - Why you need it
+    5. **IT will review** - They can safely restore or approve it
+  </Accordion>
+</AccordionGroup>
+
+## Sophos Management (IT Staff)
+
+### For IT Administrators
+
+<AccordionGroup>
+  <Accordion title="Sophos Central Console" icon="gauge-high">
+    **Centralized Management:**
+
+    - Sophos Central dashboard for all devices
+    - Real-time threat monitoring
+    - Policy management and deployment
+    - Reporting and analytics
+    - Alert notifications
+
+    **Access:** IT staff only - managed through Sophos Central portal
+  </Accordion>
+
+  <Accordion title="Policy Configuration" icon="list-check">
+    **Device Protection Policies:**
+
+    - Real-time scanning enabled
+    - Scheduled scan times configured
+    - Web filtering and protection
+    - Application control (Windows)
+    - Device encryption policies
+    - Threat response automation
+
+    **Customization by Role:**
+    - Student devices (restricted)
+    - Staff devices (flexible)
+    - Admin devices (full access)
+  </Accordion>
+</AccordionGroup>
+
+## Additional Security Layers
+
+Sophos works with other security measures at SAS:
+
+<CardGroup cols={2}>
+  <Card title="JAMF Management" icon="mobile-screen" href="/guides/systems/jamf">
+    Device management and app control
+  </Card>
+
+  <Card title="Network Security" icon="network-wired">
+    Firewall and content filtering at network level
+  </Card>
+
+  <Card title="Google Security" icon="google">
+    Email filtering and safe browsing in Google
+  </Card>
+
+  <Card title="User Training" icon="graduation-cap">
+    Digital citizenship and online safety education
+  </Card>
+</CardGroup>
+
+## Related Articles
+
+<CardGroup cols={2}>
+  <Card title="JAMF Device Management" icon="mobile-screen" href="/guides/systems/jamf">
+    How SAS devices are managed
+  </Card>
+
+  <Card title="Device Information" icon="laptop-mobile" href="/guides/devices/device-information">
+    SAS devices by grade level
+  </Card>
+
+  <Card title="WiFi Connection" icon="wifi" href="/guides/getting-started/wifi-connection">
+    Connect to SAS network
+  </Card>
+
+  <Card title="Windows Systems" icon="windows" href="/guides/systems/windows">
+    Windows for Finance and Facilities
+  </Card>
+</CardGroup>
+
+## Get Support
+
+<CardGroup cols={2}>
+  <Card title="IT Support" icon="laptop" href="mailto:ithelp@sas.edu.sg">
+    **Security and Sophos issues**
+
+    Email: ithelp@sas.edu.sg
+  </Card>
+
+  <Card title="Security Concerns" icon="shield-exclamation" href="mailto:ithelp@sas.edu.sg">
+    **Report threats or suspicious activity**
+
+    Email: ithelp@sas.edu.sg
+  </Card>
+</CardGroup>

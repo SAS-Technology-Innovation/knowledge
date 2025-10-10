@@ -20,6 +20,46 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "guides/getting-started/wifi-connection"
+            ]
+          },
+          {
+            "group": "Accounts & Access",
+            "pages": [
+              "guides/accounts/email",
+              "guides/accounts/classlink",
+              "guides/accounts/google-workspace"
+            ]
+          },
+          {
+            "group": "Devices",
+            "pages": [
+              "guides/devices/device-information"
+            ]
+          },
+          {
+            "group": "Systems",
+            "pages": [
+              "guides/systems/google-drive",
+              "guides/systems/jamf",
+              "guides/systems/windows",
+              "guides/systems/office-365"
+            ]
+          },
+          {
+            "group": "Security",
+            "pages": [
+              "guides/security/sophos"
+            ]
+          }
+        ]
       }
     ],
     "global": {

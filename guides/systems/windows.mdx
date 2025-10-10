@@ -1,0 +1,490 @@
+---
+title: "Windows Systems at SAS"
+description: "Windows computers and systems used by Finance and Facilities departments"
+icon: "windows"
+---
+
+## Windows at SAS
+
+While SAS is primarily an Apple device school, **Windows computers** are used by specific departments including Finance and Facilities for specialized software and business applications.
+
+<Note>
+  **Windows systems** are used by Finance, Facilities, and some administrative staff who need Windows-specific applications.
+</Note>
+
+## Who Uses Windows?
+
+<CardGroup cols={2}>
+  <Card title="Finance Department" icon="dollar-sign" color="#1A4190">
+    **Financial Systems**
+
+    Windows computers for accounting, budgeting, and financial management software including SAP.
+  </Card>
+
+  <Card title="Facilities" icon="wrench" color="#E51322">
+    **Operations & Maintenance**
+
+    Windows systems for building management, maintenance tracking, and facilities software.
+  </Card>
+
+  <Card title="Administrative Staff" icon="briefcase" color="#1A4190">
+    **Specialized Software**
+
+    Some administrative roles require Windows for specific applications not available on macOS.
+  </Card>
+
+  <Card title="Lab & Specialized Areas" icon="flask" color="#E51322">
+    **Subject-Specific**
+
+    Certain labs or departments may have Windows computers for specialized software.
+  </Card>
+</CardGroup>
+
+## Windows System Features
+
+### Integrated with SAS Technology
+
+<Tabs>
+  <Tab title="Access & Authentication">
+    **Sign-In Credentials:**
+
+    - **Domain:** SAS network domain
+    - **Username:** Your SAS username
+    - **Password:** Your SAS password (same as Google/WiFi)
+
+    **Single Sign-On:**
+    - Windows credentials integrate with SAS systems
+    - Access network resources automatically
+    - Email and applications use same account
+  </Tab>
+
+  <Tab title="Software & Applications">
+    **Pre-Installed Software:**
+
+    **Business Applications:**
+    - Microsoft Office 365 (full suite)
+    - SAP (Finance)
+    - Facilities management software
+    - Department-specific tools
+
+    **Standard Tools:**
+    - Web browsers (Chrome, Edge)
+    - PDF readers
+    - Communication tools
+    - Productivity software
+  </Tab>
+
+  <Tab title="Security">
+    **Windows Security Features:**
+
+    - **Sophos Endpoint Protection** - Antivirus and malware protection
+    - **Windows Defender** - Additional security layer
+    - **Firewall** - Network protection
+    - **Encryption** - BitLocker for data security
+    - **Group Policy** - Centralized security settings
+
+    <Info>
+      All Windows devices have the same Sophos protection as Apple devices!
+    </Info>
+  </Tab>
+
+  <Tab title="Network & Storage">
+    **Connectivity:**
+
+    - **SAS WiFi** - Connect with SAS credentials
+    - **Network Drives** - Access shared departmental folders
+    - **Printers** - Network printer access
+    - **VPN** - Remote access when needed
+
+    **Storage:**
+    - **Google Drive** - Primary cloud storage
+    - **Shared Drives** - Department collaboration
+    - **Network Shares** - Legacy file storage
+    - **OneDrive** - Office 365 integration
+  </Tab>
+</Tabs>
+
+## Signing In to Windows
+
+### Windows Login
+
+<Steps>
+  <Step title="Power On Computer">
+    Press power button and wait for Windows to load
+  </Step>
+
+  <Step title="Enter Credentials">
+    **Username:** Your SAS username (may include domain: SAS\username)
+
+    **Password:** Your SAS password
+  </Step>
+
+  <Step title="Press Enter or Click Sign In">
+    Windows will authenticate and log you in
+  </Step>
+
+  <Step title="Wait for Desktop">
+    Profile loads with your settings and applications
+  </Step>
+</Steps>
+
+<CodeGroup>
+```text Standard Login
+Username: username
+Password: your-sas-password
+```
+
+```text Domain Login (if required)
+Username: SAS\username
+Password: your-sas-password
+```
+</CodeGroup>
+
+## Office 365 on Windows
+
+### Microsoft Office Suite
+
+All SAS staff have access to **Office 365** with full desktop applications on Windows:
+
+<AccordionGroup>
+  <Accordion title="Office Applications" icon="microsoft">
+    **Included Applications:**
+
+    - **Word** - Document creation and editing
+    - **Excel** - Spreadsheets and data analysis
+    - **PowerPoint** - Presentations
+    - **Outlook** - Email and calendar (alternative to Gmail)
+    - **OneNote** - Digital note-taking
+    - **Teams** - Chat and collaboration
+    - **OneDrive** - Cloud storage (100GB+)
+
+    **Access:**
+    - Pre-installed on SAS Windows computers
+    - Sign in with SAS email (@sas.edu.sg)
+    - Fully licensed and activated
+  </Accordion>
+
+  <Accordion title="Office 365 vs Google Workspace" icon="code-compare">
+    **SAS Uses Both:**
+
+    **Google Workspace** (Primary):
+    - Gmail, Drive, Docs, Sheets, Slides
+    - Used by all students and most staff
+    - Main collaboration platform
+
+    **Office 365** (Staff):
+    - All staff have access
+    - Desktop apps on Windows
+    - Department-specific needs
+    - Integration with Windows workflows
+
+    <Tip>
+      You can use BOTH! Google for general collaboration, Office for advanced features or department requirements.
+    </Tip>
+  </Accordion>
+
+  <Accordion title="OneDrive vs Google Drive" icon="cloud">
+    **Two Cloud Storage Options:**
+
+    **Google Drive** (Recommended):
+    - ✅ Primary storage at SAS
+    - ✅ Unlimited storage
+    - ✅ Better collaboration
+    - ✅ Works across all devices
+    - ✅ Shared Drives for teams
+
+    **OneDrive** (Available):
+    - Comes with Office 365
+    - 100GB+ storage per user
+    - Integrates with Office apps
+    - Auto-save for Office documents
+
+    <Note>
+      **Best Practice:** Use Google Drive and Shared Drives as your primary storage. OneDrive can be used for Office-specific workflows.
+    </Note>
+  </Accordion>
+</AccordionGroup>
+
+## Connecting Windows to SAS WiFi
+
+### WiFi Setup on Windows
+
+<Steps>
+  <Step title="Click WiFi Icon">
+    Click the WiFi icon in the system tray (bottom right corner)
+  </Step>
+
+  <Step title="Select SAS Network">
+    Choose **SAS** or **SAS-Secure** from the list
+  </Step>
+
+  <Step title="Enter Credentials">
+    **Username:** Your SAS username (without @sas.edu.sg)
+
+    **Password:** Your SAS password
+  </Step>
+
+  <Step title="Accept Certificate">
+    Accept the security certificate when prompted
+  </Step>
+
+  <Step title="Connect">
+    Click OK/Connect and wait for connection
+  </Step>
+</Steps>
+
+<Accordion title="Advanced WiFi Settings (if needed)">
+  **Manual Configuration:**
+
+  - **Security type:** WPA2-Enterprise
+  - **Encryption:** AES
+  - **Authentication:** PEAP or TTLS
+  - **Identity:** SAS username (no @sas.edu.sg)
+  - **Password:** Your SAS password
+
+  **Certificate:**
+  - Trust the SAS certificate when prompted
+</Accordion>
+
+## Common Windows Tasks
+
+### Everyday Operations
+
+<AccordionGroup>
+  <Accordion title="Accessing Email" icon="envelope">
+    **Two Options for Email:**
+
+    **Option 1: Gmail (Recommended)**
+    - Open Chrome browser
+    - Go to mail.google.com
+    - Sign in with username@sas.edu.sg
+    - Use SAS password
+
+    **Option 2: Outlook**
+    - Open Outlook application
+    - Already configured with your SAS email
+    - Syncs with Gmail via Exchange
+    - Calendar integration
+  </Accordion>
+
+  <Accordion title="Printing" icon="print">
+    **Print to Network Printers:**
+
+    1. **File → Print** in any application
+    2. Select printer from list
+    3. Adjust settings if needed
+    4. Click **Print**
+
+    **Finding Printers:**
+    - Printers appear automatically when connected to SAS network
+    - Follow-you printing available in some areas
+    - Ask IT about department printer locations
+
+    **Troubleshooting:**
+    - Ensure connected to SAS WiFi
+    - Restart print spooler if needed
+    - Contact IT for printer driver issues
+  </Accordion>
+
+  <Accordion title="Accessing Network Drives" icon="folder-open">
+    **Department Shared Folders:**
+
+    1. Open **File Explorer**
+    2. Look for **Network Drives** (may be mapped as drive letters)
+    3. Or go to **\\\\server-name\\share-name**
+    4. Access with SAS credentials
+
+    **Google Drive Access:**
+    - Use Google Drive for Desktop app
+    - Or access via web browser
+    - Sync important files locally
+  </Accordion>
+
+  <Accordion title="Installing Software" icon="download">
+    **Software Installation:**
+
+    <Warning>
+      **Restricted:** Most users cannot install software themselves on Windows computers.
+    </Warning>
+
+    **To Request Software:**
+    1. Contact IT: [ithelp@sas.edu.sg](mailto:ithelp@sas.edu.sg)
+    2. Specify software name and version
+    3. Explain business need
+    4. IT will review and install if approved
+
+    **Pre-Approved Software:**
+    - Some software available via self-service portal
+    - IT will provide access if eligible
+  </Accordion>
+</AccordionGroup>
+
+## SAP on Windows
+
+### Finance System
+
+<AccordionGroup>
+  <Accordion title="Accessing SAP" icon="chart-line">
+    **For Finance Staff:**
+
+    SAP is the enterprise resource planning (ERP) system used for financial management.
+
+    **Access:**
+    - Desktop SAP client on Windows computers
+    - Or web-based SAP Fiori interface
+    - Login with SAP credentials (provided by Finance)
+
+    **Support:**
+    - Finance department handles SAP user access
+    - IT provides technical support
+    - Training available through Finance
+  </Accordion>
+</AccordionGroup>
+
+## Troubleshooting Windows Issues
+
+<AccordionGroup>
+  <Accordion title="Can't sign in to Windows" icon="circle-exclamation">
+    **Login problems:**
+
+    1. **Verify username format:**
+       - Try: `username`
+       - Or try: `SAS\username`
+       - Use SAS password
+
+    2. **Check for caps lock** - Password is case-sensitive
+
+    3. **Try different keyboard layout** - Ensure English keyboard selected
+
+    4. **Password expired?** - Contact IT to reset
+
+    5. **Account locked?** - Too many failed attempts - contact IT
+
+    **Contact IT:** [ithelp@sas.edu.sg](mailto:ithelp@sas.edu.sg)
+  </Accordion>
+
+  <Accordion title="Slow performance" icon="gauge-simple-low">
+    **Windows running slow:**
+
+    **Quick Fixes:**
+    1. **Restart computer** - Clears memory and temporary issues
+    2. **Close unused programs** - Check Task Manager
+    3. **Check for updates** - Install pending Windows updates
+    4. **Scan for malware** - Run Sophos scan
+
+    **If still slow:**
+    - Clear browser cache
+    - Check disk space (should have 20GB+ free)
+    - Contact IT for deeper investigation
+  </Accordion>
+
+  <Accordion title="Sophos/Security alerts" icon="shield-exclamation">
+    **Security software issues:**
+
+    See the [Sophos Security Guide](/guides/security/sophos) for detailed information.
+
+    **Quick actions:**
+    - Don't ignore security alerts
+    - Let Sophos quarantine threats
+    - Contact IT if repeatedly seeing alerts
+    - Don't try to disable security software
+  </Accordion>
+
+  <Accordion title="Can't access network resources" icon="network-wired">
+    **Network drive or printer issues:**
+
+    1. **Verify WiFi connection** - Connected to SAS network?
+    2. **Restart computer** - Reconnects network resources
+    3. **Check credentials** - May need to re-enter SAS password
+    4. **Map drive manually** - IT can provide server paths
+
+    **Persistent issues:** Contact [ithelp@sas.edu.sg](mailto:ithelp@sas.edu.sg)
+  </Accordion>
+</AccordionGroup>
+
+## Windows Security Best Practices
+
+<Tip>
+  **Keep Windows Secure:**
+
+  ✅ Always lock computer when leaving desk (Windows + L)
+
+  ✅ Keep password confidential
+
+  ✅ Install updates when prompted
+
+  ✅ Don't disable Sophos or firewall
+
+  ✅ Report suspicious emails or activity
+
+  ✅ Use Google Drive/Shared Drives for file storage
+
+  ✅ Back up important work regularly
+</Tip>
+
+## Windows Management (IT Staff)
+
+### For IT Administrators
+
+<AccordionGroup>
+  <Accordion title="Active Directory" icon="network-wired">
+    **Domain Management:**
+
+    - Windows computers joined to SAS domain
+    - Centralized user management
+    - Group Policy for settings and security
+    - Network resource access control
+  </Accordion>
+
+  <Accordion title="System Updates" icon="arrows-rotate">
+    **Update Management:**
+
+    - Windows Update for Businesses (WSUS)
+    - Controlled update deployment
+    - Critical patches prioritized
+    - Application updates via deployment tools
+  </Accordion>
+</AccordionGroup>
+
+## Related Articles
+
+<CardGroup cols={2}>
+  <Card title="Office 365" icon="microsoft" href="/guides/systems/office-365">
+    Using Microsoft Office at SAS
+  </Card>
+
+  <Card title="Sophos Security" icon="shield-virus" href="/guides/security/sophos">
+    Endpoint protection on Windows
+  </Card>
+
+  <Card title="Google Drive" icon="google-drive" href="/guides/systems/google-drive">
+    Primary cloud storage at SAS
+  </Card>
+
+  <Card title="WiFi Connection" icon="wifi" href="/guides/getting-started/wifi-connection">
+    Connect Windows to SAS network
+  </Card>
+</CardGroup>
+
+## Get Support
+
+<CardGroup cols={2}>
+  <Card title="IT Support" icon="laptop" href="mailto:ithelp@sas.edu.sg">
+    **Windows technical issues**
+
+    Email: ithelp@sas.edu.sg
+
+    - Login problems
+    - Hardware issues
+    - Software installation
+    - Network access
+  </Card>
+
+  <Card title="Department Support" icon="users">
+    **Department-Specific Help**
+
+    - Finance: SAP and financial systems
+    - Facilities: Operations software
+    - Contact your department head
+  </Card>
+</CardGroup>
