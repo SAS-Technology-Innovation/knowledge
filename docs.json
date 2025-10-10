@@ -65,6 +65,14 @@
               "guides/classroom/classroom-technology",
               "guides/classroom/vivi"
             ]
+          },
+          {
+            "group": "Technology by Division",
+            "pages": [
+              "guides/divisions/elementary-technology",
+              "guides/divisions/middle-school-technology",
+              "guides/divisions/high-school-byod"
+            ]
           }
         ]
       }
@@ -75,11 +83,6 @@
           "anchor": "SAS Website",
           "href": "https://www.sas.edu.sg",
           "icon": "house"
-        },
-        {
-          "anchor": "Technology Support",
-          "href": "https://www.sas.edu.sg/support",
-          "icon": "headset"
         }
       ]
     }
