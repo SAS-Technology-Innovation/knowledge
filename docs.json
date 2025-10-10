@@ -58,6 +58,13 @@
             "pages": [
               "guides/security/sophos"
             ]
+          },
+          {
+            "group": "Classroom Technology",
+            "pages": [
+              "guides/classroom/classroom-technology",
+              "guides/classroom/vivi"
+            ]
           }
         ]
       }
