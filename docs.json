@@ -1,68 +1,22 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "SAS Technology Knowledge Base",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#1A4190",
+    "light": "#E51322",
+    "dark": "#0D2D6B"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Home",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Welcome",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "index"
             ]
           }
         ]
@@ -71,14 +25,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "SAS Website",
+          "href": "https://www.sas.edu.sg",
+          "icon": "house"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Technology Support",
+          "href": "https://www.sas.edu.sg/support",
+          "icon": "headset"
         }
       ]
     }
@@ -90,14 +44,14 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Contact IT",
+        "href": "mailto:techsupport@sas.edu.sg"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "SAS Portal",
+      "href": "https://www.sas.edu.sg"
     }
   },
   "contextual": {
@@ -105,18 +59,36 @@
      "copy",
      "view",
      "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
+     "claude"
    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/SingAmSchool",
+      "linkedin": "https://linkedin.com/school/singapore-american-school",
+      "website": "https://www.sas.edu.sg"
+    }
+  },
+  "seo": {
+    "metatags": {
+      "description": "Singapore American School Technology Knowledge Base - Guides and resources for technology, systems, apps, and AI tools",
+      "keywords": "Singapore American School, SAS, technology guides, how-to, apps, AI, systems, SAS IT",
+      "author": "Singapore American School",
+      "copyright": "Copyright 2025 Singapore American School",
+      "og:title": "SAS Technology Knowledge Base",
+      "og:type": "website",
+      "og:description": "Technology guides and resources for the SAS community - The Eagle Way",
+      "og:site_name": "SAS Technology Knowledge Base",
+      "og:locale": "en_US",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@SingAmSchool",
+      "twitter:title": "SAS Technology Knowledge Base",
+      "twitter:description": "Technology guides and resources for the SAS community - The Eagle Way",
+      "theme-color": "#1A4190",
+      "language": "en",
+      "distribution": "global",
+      "coverage": "Singapore",
+      "category": "Education"
     }
   }
 }
