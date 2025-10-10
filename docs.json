@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "palm",
   "name": "SAS Technology Knowledge Base",
   "colors": {
     "primary": "#1A4190",
