@@ -44,8 +44,12 @@
   "navbar": {
     "links": [
       {
-        "label": "Contact IT",
-        "href": "mailto:techsupport@sas.edu.sg"
+        "label": "EdTech Support",
+        "href": "mailto:edtech@sas.edu.sg"
+      },
+      {
+        "label": "IT Support",
+        "href": "mailto:ithelp@sas.edu.sg"
       }
     ],
     "primary": {

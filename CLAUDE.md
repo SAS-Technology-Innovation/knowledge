@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is the SAS Technology Knowledge Base - a Mintlify documentation site for Singapore American School (SAS).
+This is the SAS Technology Knowledge Base - the **main support portal for education technology** at Singapore American School (SAS).
 
 **Site Purpose:**
 Share guides, how-tos, and information about technology, systems, apps, and AI tools used by the SAS community (parents, students, faculty, and staff).
@@ -15,6 +15,20 @@ Share guides, how-tos, and information about technology, systems, apps, and AI t
 - Typography: "bebas-neue" for headings, Arial/Helvetica for body
 - Tagline: "The Eagle Way"
 - Site Name: "SAS Technology Knowledge Base"
+
+**Support Structure:**
+- **EdTech Support** (edtech@sas.edu.sg) - Level 0-1 support
+  - Classroom technology & instructional tools
+  - Learning management systems
+  - Educational apps & platforms (ClassLink, PowerSchool, Veracross)
+  - Teaching & learning technology
+
+- **IT Support** (ithelp@sas.edu.sg) - Level 1-2 support
+  - Device issues & hardware
+  - Network & connectivity
+  - Account access & passwords
+  - SAP & administrative systems
+  - Infrastructure & technical issues
 
 ## Development Commands
 
