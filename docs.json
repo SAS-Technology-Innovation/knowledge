@@ -161,15 +161,15 @@
         "items": [
           {
             "label": "EdTech Support",
-            "url": "mailto:edtech@sas.edu.sg"
+            "href": "mailto:edtech@sas.edu.sg"
           },
           {
             "label": "IT Support",
-            "url": "mailto:ithelp@sas.edu.sg"
+            "href": "mailto:ithelp@sas.edu.sg"
           },
           {
             "label": "Tech Help Center",
-            "url": "/"
+            "href": "/"
           }
         ]
       },
@@ -178,15 +178,15 @@
         "items": [
           {
             "label": "Elementary School",
-            "url": "https://www.sas.edu.sg/academics/elementary-school"
+            "href": "https://www.sas.edu.sg/academics/elementary-school"
           },
           {
             "label": "Middle School",
-            "url": "https://www.sas.edu.sg/academics/middle-school"
+            "href": "https://www.sas.edu.sg/academics/middle-school"
           },
           {
             "label": "High School",
-            "url": "https://www.sas.edu.sg/academics/high-school"
+            "href": "https://www.sas.edu.sg/academics/high-school"
           }
         ]
       },
@@ -195,19 +195,19 @@
         "items": [
           {
             "label": "SAS Website",
-            "url": "https://www.sas.edu.sg"
+            "href": "https://www.sas.edu.sg"
           },
           {
             "label": "Parent Portal",
-            "url": "https://www.sas.edu.sg/parents"
+            "href": "https://www.sas.edu.sg/parents"
           },
           {
             "label": "ClassLink LaunchPad",
-            "url": "https://launchpad.classlink.com"
+            "href": "https://launchpad.classlink.com"
           },
           {
             "label": "Google Workspace",
-            "url": "https://workspace.google.com"
+            "href": "https://workspace.google.com"
           }
         ]
       },
@@ -216,19 +216,19 @@
         "items": [
           {
             "label": "About SAS",
-            "url": "https://www.sas.edu.sg/about"
+            "href": "https://www.sas.edu.sg/about"
           },
           {
             "label": "Admissions",
-            "url": "https://www.sas.edu.sg/admissions"
+            "href": "https://www.sas.edu.sg/admissions"
           },
           {
             "label": "Contact Us",
-            "url": "https://www.sas.edu.sg/contact"
+            "href": "https://www.sas.edu.sg/contact"
           },
           {
             "label": "The Eagle Way",
-            "url": "https://www.sas.edu.sg/about/mission-vision"
+            "href": "https://www.sas.edu.sg/about/mission-vision"
           }
         ]
       }
