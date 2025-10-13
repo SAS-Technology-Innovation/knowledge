@@ -219,12 +219,29 @@
             "href": "https://www.sas.edu.sg/admissions"
           },
           {
-            "label": "Contact Us",
-            "href": "https://www.sas.edu.sg/contact"
+            "label": "The Eagle Way",
+            "href": "https://www.sas.edu.sg/about-us/our-strategic-direction"
           },
           {
-            "label": "The Eagle Way",
-            "href": "https://www.sas.edu.sg/about/mission-vision"
+            "label": "Data Safeguarding",
+            "href": "https://www.sas.edu.sg/data-protection-privacy-notice"
+          }
+        ]
+      },
+      {
+        "title": "Contact",
+        "items": [
+          {
+            "label": "+65 6363 3403",
+            "href": "tel:+6563633403"
+          },
+          {
+            "label": "Community Ambassadors",
+            "href": "mailto:communityambassadors@sas.edu.sg"
+          },
+          {
+            "label": "Media Enquiries",
+            "href": "mailto:communityambassadors@sas.edu.sg"
           }
         ]
       }
