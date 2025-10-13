@@ -158,7 +158,7 @@
     "links": [
       {
         "title": "Technology Support",
-        "links": [
+        "items": [
           {
             "label": "EdTech Support",
             "url": "mailto:edtech@sas.edu.sg"
@@ -175,7 +175,7 @@
       },
       {
         "title": "School Divisions",
-        "links": [
+        "items": [
           {
             "label": "Elementary School",
             "url": "https://www.sas.edu.sg/academics/elementary-school"
@@ -192,7 +192,7 @@
       },
       {
         "title": "Quick Links",
-        "links": [
+        "items": [
           {
             "label": "SAS Website",
             "url": "https://www.sas.edu.sg"
@@ -213,7 +213,7 @@
       },
       {
         "title": "About",
-        "links": [
+        "items": [
           {
             "label": "About SAS",
             "url": "https://www.sas.edu.sg/about"
