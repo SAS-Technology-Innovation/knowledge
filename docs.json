@@ -62,15 +62,45 @@
           {
             "group": "Classroom Technology",
             "pages": [
-              "guides/classroom/classroom-technology",
-              "guides/classroom/vivi"
+              "guides/classroom/classroom-technology"
             ]
           },
           {
-            "group": "Technology by Division",
+            "group": "Campus Technology",
             "pages": [
-              "guides/divisions/elementary-technology",
-              "guides/divisions/middle-school-technology",
+              "guides/classroom/vivi"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Elementary",
+        "groups": [
+          {
+            "group": "Elementary School (Grades 1-5)",
+            "pages": [
+              "guides/divisions/elementary-technology"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Middle School",
+        "groups": [
+          {
+            "group": "Middle School (Grades 6-8)",
+            "pages": [
+              "guides/divisions/middle-school-technology"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "High School",
+        "groups": [
+          {
+            "group": "High School (Grades 9-12)",
+            "pages": [
               "guides/divisions/high-school-byod"
             ]
           }
