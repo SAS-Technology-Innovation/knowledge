@@ -120,8 +120,89 @@
     "socials": {
       "x": "https://x.com/SingAmSchool",
       "linkedin": "https://linkedin.com/school/singapore-american-school",
-      "website": "https://www.sas.edu.sg"
-    }
+      "website": "https://www.sas.edu.sg",
+      "facebook": "https://facebook.com/SingaporeAmericanSchool",
+      "instagram": "https://instagram.com/singaporeamericanschool",
+      "youtube": "https://youtube.com/@singaporeamericanschool"
+    },
+    "links": [
+      {
+        "title": "Technology Support",
+        "links": [
+          {
+            "label": "EdTech Support",
+            "url": "mailto:edtech@sas.edu.sg"
+          },
+          {
+            "label": "IT Support",
+            "url": "mailto:ithelp@sas.edu.sg"
+          },
+          {
+            "label": "Tech Help Center",
+            "url": "/"
+          }
+        ]
+      },
+      {
+        "title": "School Divisions",
+        "links": [
+          {
+            "label": "Elementary School",
+            "url": "https://www.sas.edu.sg/academics/elementary-school"
+          },
+          {
+            "label": "Middle School",
+            "url": "https://www.sas.edu.sg/academics/middle-school"
+          },
+          {
+            "label": "High School",
+            "url": "https://www.sas.edu.sg/academics/high-school"
+          }
+        ]
+      },
+      {
+        "title": "Quick Links",
+        "links": [
+          {
+            "label": "SAS Website",
+            "url": "https://www.sas.edu.sg"
+          },
+          {
+            "label": "Parent Portal",
+            "url": "https://www.sas.edu.sg/parents"
+          },
+          {
+            "label": "ClassLink LaunchPad",
+            "url": "https://launchpad.classlink.com"
+          },
+          {
+            "label": "Google Workspace",
+            "url": "https://workspace.google.com"
+          }
+        ]
+      },
+      {
+        "title": "About",
+        "links": [
+          {
+            "label": "About SAS",
+            "url": "https://www.sas.edu.sg/about"
+          },
+          {
+            "label": "Admissions",
+            "url": "https://www.sas.edu.sg/admissions"
+          },
+          {
+            "label": "Contact Us",
+            "url": "https://www.sas.edu.sg/contact"
+          },
+          {
+            "label": "The Eagle Way",
+            "url": "https://www.sas.edu.sg/about/mission-vision"
+          }
+        ]
+      }
+    ]
   },
   "seo": {
     "metatags": {
