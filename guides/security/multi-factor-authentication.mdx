@@ -1,0 +1,725 @@
+---
+title: "Multi-Factor Authentication (MFA)"
+description: "Set up and manage multi-factor authentication to add an extra layer of security to your SAS account"
+icon: "mobile-screen"
+---
+
+## What is Multi-Factor Authentication?
+
+Multi-Factor Authentication (MFA), also called Two-Factor Authentication (2FA), adds an extra layer of security to your SAS account. Even if someone steals your password, they can't access your account without the second factor.
+
+<Note>
+  **The Eagle Way** - MFA is one of the most effective ways to protect your digital identity. Taking a few minutes to set it up can prevent unauthorized access and keep our school community secure.
+</Note>
+
+---
+
+## Why MFA Matters
+
+### How MFA Protects You
+
+<CardGroup cols={2}>
+  <Card title="Password Theft Protection" icon="key" color="#1A4190">
+    If your password is compromised, MFA prevents unauthorized access
+  </Card>
+
+  <Card title="Phishing Defense" icon="shield-halved" color="#E51322">
+    Even if you accidentally enter your password on a fake site, attackers can't get in
+  </Card>
+
+  <Card title="Device Verification" icon="mobile" color="#1A4190">
+    Confirms that the person logging in has your trusted device
+  </Card>
+
+  <Card title="Alert System" icon="bell" color="#E51322">
+    Get notified of unauthorized login attempts on your account
+  </Card>
+</CardGroup>
+
+### Real-World Example
+
+<Accordion title="How MFA Stopped an Attack" icon="shield-check">
+  **Scenario:** A student receives a convincing phishing email that looks like it's from SAS IT. They click the link and enter their password on a fake login page.
+
+  **Without MFA:** ❌ The attacker immediately gains access to:
+  - Student email
+  - ClassLink apps
+  - Google Workspace documents
+  - Personal and academic information
+
+  **With MFA:** ✅ The attacker has the password but:
+  - Can't complete the login without the MFA code
+  - Student receives an unexpected MFA request and realizes the compromise
+  - Student changes password before any damage is done
+  - Account remains secure
+
+  **Result:** MFA prevented a potential data breach and identity theft!
+</Accordion>
+
+---
+
+## Authentication Methods
+
+### Recommended Methods (Most Secure)
+
+<Steps>
+  <Step title="Authenticator App (BEST)" icon="mobile-screen-button">
+    **Most secure and convenient option**
+
+    **Popular Authenticator Apps:**
+    - **Microsoft Authenticator** (recommended for SAS)
+    - Google Authenticator
+    - Authy
+    - 1Password
+    - Duo Mobile
+
+    **Pros:**
+    - Works without internet connection
+    - Quick and easy to use
+    - More secure than SMS
+    - Can back up codes (some apps)
+
+    **Cons:**
+    - Requires smartphone
+    - Need to set up initially
+  </Step>
+
+  <Step title="Hardware Security Key" icon="usb-drive">
+    **Highest security level**
+
+    **Examples:**
+    - YubiKey
+    - Google Titan Security Key
+
+    **Pros:**
+    - Most secure method
+    - No battery or internet needed
+    - Resistant to phishing
+
+    **Cons:**
+    - Costs money ($25-$50)
+    - Can be lost or forgotten
+    - Requires USB/NFC support
+  </Step>
+
+  <Step title="Push Notifications" icon="bell">
+    **Easy and user-friendly**
+
+    **How it works:**
+    - Receive push notification on trusted device
+    - Approve or deny login attempt
+
+    **Pros:**
+    - Very convenient
+    - No codes to type
+    - Clear login context
+
+    **Cons:**
+    - Requires internet connection
+    - Depends on app/service support
+  </Step>
+</Steps>
+
+### Backup Methods (Less Secure)
+
+<Warning>
+  **Use these only as backup options, not primary methods:**
+
+  **SMS Text Message:**
+  - ⚠️ Vulnerable to SIM swapping attacks
+  - ⚠️ Requires cell signal
+  - ✅ Better than no MFA
+  - ✅ Widely supported
+
+  **Email Verification:**
+  - ⚠️ Only as secure as your email account
+  - ⚠️ Creates circular dependency if email is compromised
+  - ✅ Works on any device with email access
+
+  **Voice Call:**
+  - ⚠️ Can be intercepted
+  - ⚠️ Less convenient
+  - ✅ Works on landlines
+</Warning>
+
+---
+
+## Setting Up MFA
+
+### For Students
+
+<Tabs>
+  <Tab title="Microsoft Authenticator">
+    <Steps>
+      <Step title="Download the App">
+        Install Microsoft Authenticator from:
+        - **iPhone/iPad:** App Store
+        - **Android:** Google Play Store
+      </Step>
+
+      <Step title="Sign In to Your SAS Account">
+        Go to your SAS account portal and log in with your credentials.
+      </Step>
+
+      <Step title="Navigate to Security Settings">
+        - Click your profile icon
+        - Select "Security" or "Account Security"
+        - Find "Multi-Factor Authentication" section
+      </Step>
+
+      <Step title="Choose Authenticator App">
+        Select "Authenticator app" as your MFA method
+      </Step>
+
+      <Step title="Scan QR Code">
+        - A QR code will appear on screen
+        - Open Microsoft Authenticator app
+        - Tap "+" to add account
+        - Select "Work or school account"
+        - Scan the QR code with your phone camera
+      </Step>
+
+      <Step title="Verify Setup">
+        - The app will generate a 6-digit code
+        - Enter this code in your browser to confirm
+        - Click "Verify" or "Complete Setup"
+      </Step>
+
+      <Step title="Save Recovery Codes">
+        - You'll be shown backup recovery codes
+        - **IMPORTANT:** Save these codes in a secure location
+        - Take a screenshot or write them down
+        - Store them separately from your phone
+      </Step>
+    </Steps>
+
+    <Info>
+      **Success!** Your account is now protected with MFA. Next time you log in, you'll need both your password and a code from the app.
+    </Info>
+  </Tab>
+
+  <Tab title="Google Authenticator">
+    <Steps>
+      <Step title="Install Google Authenticator">
+        Download from:
+        - **iPhone:** App Store
+        - **Android:** Google Play Store
+      </Step>
+
+      <Step title="Access Security Settings">
+        Log in to your SAS account and navigate to security settings
+      </Step>
+
+      <Step title="Add Your Account">
+        - In security settings, choose "Authenticator app"
+        - A QR code will be displayed
+        - Open Google Authenticator
+        - Tap "+" or "Add account"
+        - Scan the QR code
+      </Step>
+
+      <Step title="Confirm Setup">
+        Enter the 6-digit code from Google Authenticator to verify
+      </Step>
+
+      <Step title="Store Backup Codes">
+        Save your recovery codes in a safe place (password manager, secure note, etc.)
+      </Step>
+    </Steps>
+  </Tab>
+
+  <Tab title="SMS Backup">
+    <Steps>
+      <Step title="Go to Security Settings">
+        Log in to your SAS account security page
+      </Step>
+
+      <Step title="Add Phone Number">
+        - Select "Add phone number" or "SMS verification"
+        - Enter your mobile number with country code
+        - Example: +65 9123 4567 (Singapore)
+      </Step>
+
+      <Step title="Verify Number">
+        - You'll receive a text message with a code
+        - Enter the code to verify your phone number
+      </Step>
+
+      <Step title="Set as Backup Method">
+        Make sure SMS is set as a **backup method**, not primary (use authenticator app as primary)
+      </Step>
+    </Steps>
+
+    <Warning>
+      **Remember:** SMS should be a backup option only. Authenticator apps are more secure!
+    </Warning>
+  </Tab>
+</Tabs>
+
+### For Faculty & Staff
+
+<Tabs>
+  <Tab title="Initial Setup">
+    <Steps>
+      <Step title="Receive Setup Email">
+        IT will send you an email with MFA setup instructions and a link
+      </Step>
+
+      <Step title="Choose Your Method">
+        You'll be prompted to select:
+        - Microsoft Authenticator (recommended)
+        - Phone call
+        - SMS
+      </Step>
+
+      <Step title="Complete Enrollment">
+        Follow the on-screen prompts to:
+        - Install authenticator app (if selected)
+        - Verify your phone number
+        - Test your MFA method
+      </Step>
+
+      <Step title="Register Backup Method">
+        Always set up at least one backup authentication method
+      </Step>
+
+      <Step title="Download Recovery Codes">
+        Save your recovery codes to a secure location:
+        - Password manager
+        - Encrypted USB drive
+        - Secure note in 1Password
+      </Step>
+    </Steps>
+  </Tab>
+
+  <Tab title="Registering Devices">
+    <Steps>
+      <Step title="First Login with MFA">
+        After entering your password, you'll be prompted for MFA code
+      </Step>
+
+      <Step title="Enter Authentication Code">
+        - Open your authenticator app
+        - Enter the 6-digit code shown
+        - Code refreshes every 30 seconds
+      </Step>
+
+      <Step title="Trust This Device (Optional)">
+        Check "Don't ask again on this device" if it's your personal computer
+
+        **Only trust:**
+        - Your personal devices
+        - Devices you control
+        - Devices in secure locations
+
+        **Never trust:**
+        - Shared computers
+        - Public computers
+        - Lab computers
+        - Library computers
+      </Step>
+    </Steps>
+  </Tab>
+
+  <Tab title="Managing Multiple Accounts">
+    <Steps>
+      <Step title="Organize in Authenticator App">
+        Most authenticator apps let you:
+        - Add multiple accounts
+        - Rename accounts with labels
+        - Search for accounts
+        - Organize by category
+      </Step>
+
+      <Step title="Use Consistent Naming">
+        Label accounts clearly:
+        - "SAS - Faculty Account"
+        - "SAS - ClassLink"
+        - "SAS - Google Workspace"
+      </Step>
+
+      <Step title="Sync Across Devices">
+        Some apps (Microsoft Authenticator, Authy) can sync:
+        - Enable cloud backup in app settings
+        - Sign in on multiple devices
+        - Keep codes accessible if phone is lost
+      </Step>
+    </Steps>
+  </Tab>
+</Tabs>
+
+---
+
+## Using MFA Daily
+
+### Typical Login Flow
+
+<Steps>
+  <Step title="Enter Your Password">
+    Log in to any SAS service with your username and password as usual
+  </Step>
+
+  <Step title="Receive MFA Prompt">
+    You'll see a screen asking for your second factor:
+    - "Enter code from authenticator app"
+    - "Approve login on your mobile device"
+    - "Enter code sent via SMS"
+  </Step>
+
+  <Step title="Complete Authentication">
+    **Using Authenticator App:**
+    - Open the authenticator app on your phone
+    - Find your SAS account
+    - Enter the 6-digit code displayed
+    - Code changes every 30 seconds (don't worry if it refreshes while typing)
+
+    **Using Push Notification:**
+    - Check your phone for notification
+    - Review login details (location, device)
+    - Tap "Approve" if it's you
+
+    **Using SMS:**
+    - Check your text messages
+    - Enter the code received
+  </Step>
+
+  <Step title="Access Granted">
+    You're now logged in securely!
+  </Step>
+</Steps>
+
+### Tips for Smooth Daily Use
+
+<CardGroup cols={2}>
+  <Card title="Keep Phone Charged" icon="battery-full" color="#1A4190">
+    Your phone is your authentication device - keep it charged and accessible
+  </Card>
+
+  <Card title="Enable Notifications" icon="bell" color="#E51322">
+    Allow push notifications from authenticator apps for faster login approval
+  </Card>
+
+  <Card title="Trust Personal Devices" icon="computer" color="#1A4190">
+    Mark your personal laptop as trusted to reduce MFA prompts
+  </Card>
+
+  <Card title="Keep Backup Codes" icon="life-ring" color="#E51322">
+    Store recovery codes in a secure location separate from your phone
+  </Card>
+</CardGroup>
+
+---
+
+## Troubleshooting
+
+### Common Issues
+
+<AccordionGroup>
+  <Accordion title="Code Not Working / Invalid Code" icon="triangle-exclamation">
+    **Possible Causes:**
+    - Code expired (they change every 30 seconds)
+    - Phone time is incorrect
+    - Wrong account selected in app
+
+    **Solutions:**
+    1. Wait for the code to refresh and try the new code
+    2. Check your phone's time settings:
+       - **iPhone:** Settings > General > Date & Time > Set Automatically
+       - **Android:** Settings > System > Date & Time > Use network-provided time
+    3. Make sure you're looking at the correct account in your authenticator app
+    4. If still not working, use a backup method or recovery code
+  </Accordion>
+
+  <Accordion title="Lost or Broken Phone" icon="mobile-screen">
+    **If you still have access to your account:**
+    1. Log in to security settings
+    2. Remove old phone/authenticator
+    3. Set up MFA on new device
+
+    **If you can't log in:**
+    1. Use a backup authentication method (SMS, email, etc.)
+    2. Use a recovery code you saved
+    3. Contact IT Support for account recovery:
+       - **Students:** [edtech@sas.edu.sg](mailto:edtech@sas.edu.sg)
+       - **Staff:** [ithelp@sas.edu.sg](mailto:ithelp@sas.edu.sg)
+
+    **Prevention:**
+    - Enable cloud backup in authenticator app settings
+    - Keep recovery codes in a secure location
+    - Set up multiple backup methods
+  </Accordion>
+
+  <Accordion title="Not Receiving SMS Codes" icon="message-xmark">
+    **Troubleshooting Steps:**
+    1. Check your phone has signal
+    2. Make sure your number is correct in account settings
+    3. Check if SMS is blocked from unknown numbers
+    4. Try requesting code again (may take a few minutes)
+    5. Use an alternative authentication method
+    6. Contact your mobile provider about SMS delivery issues
+
+    **Better Solution:** Switch to authenticator app (doesn't require SMS)
+  </Accordion>
+
+  <Accordion title="Multiple Accounts / Wrong Account" icon="users">
+    **If you have multiple SAS accounts:**
+    1. Make sure you're logging in with the correct username
+    2. Label accounts clearly in your authenticator app:
+       - "SAS Student Account"
+       - "SAS Faculty Account"
+       - "SAS Admin Account"
+    3. Check the account details in the authenticator app before entering code
+
+    **Tip:** Use different authenticator apps for personal vs. school accounts to avoid confusion
+  </Accordion>
+
+  <Accordion title="Locked Out of Account" icon="lock">
+    **If you can't access MFA and can't log in:**
+
+    **Students:**
+    1. Visit the EdTech Help Desk in person (if on campus)
+    2. Email [edtech@sas.edu.sg](mailto:edtech@sas.edu.sg) from a parent's email
+    3. Bring student ID for verification
+
+    **Faculty & Staff:**
+    1. Contact IT Support: [ithelp@sas.edu.sg](mailto:ithelp@sas.edu.sg)
+    2. May require in-person verification with employee ID
+    3. Account recovery process typically takes 30-60 minutes
+
+    **Parents:**
+    1. Use the "Forgot Password" link on the login page
+    2. Contact Community Ambassadors: [communityambassadors@sas.edu.sg](mailto:communityambassadors@sas.edu.sg)
+    3. Phone: +65 6363 3403
+  </Accordion>
+
+  <Accordion title="Authenticator App Deleted Accidentally" icon="trash-arrow-up">
+    **Don't panic! You have options:**
+
+    1. **If you saved recovery codes:** Use a recovery code to log in, then set up MFA again
+    2. **If you have backup method:** Use SMS or email authentication to log in
+    3. **If you have cloud backup enabled:**
+       - Reinstall authenticator app
+       - Sign in to restore your accounts
+    4. **If none of the above:** Contact support for account recovery
+
+    **Going Forward:** Enable cloud backup in authenticator app to prevent this issue
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## Best Practices
+
+### Security Tips
+
+<Steps>
+  <Step title="Use Authenticator App as Primary">
+    Authenticator apps are more secure than SMS. Use SMS only as backup.
+  </Step>
+
+  <Step title="Enable Cloud Backup">
+    In Microsoft Authenticator or Authy, enable cloud backup so you don't lose access if your phone breaks.
+  </Step>
+
+  <Step title="Store Recovery Codes Securely">
+    Save recovery codes in:
+    - Password manager (1Password, LastPass)
+    - Encrypted USB drive
+    - Secure physical location (safe, lockbox)
+
+    **Never:** Email them to yourself or save in unencrypted notes
+  </Step>
+
+  <Step title="Set Up Multiple Backup Methods">
+    Configure at least 2-3 authentication methods:
+    - Primary: Authenticator app
+    - Backup 1: SMS to mobile
+    - Backup 2: Recovery codes
+  </Step>
+
+  <Step title="Don't Share MFA Codes">
+    Never give your MFA code to anyone, even if they claim to be from IT. IT will never ask for your MFA code.
+  </Step>
+
+  <Step title="Review Trusted Devices Regularly">
+    Periodically check and remove trusted devices you no longer use:
+    - Go to security settings
+    - Review list of trusted devices
+    - Remove old or unknown devices
+  </Step>
+</Steps>
+
+### What to Do When...
+
+<CardGroup cols={2}>
+  <Card title="Getting a New Phone" icon="mobile" color="#1A4190">
+    **Before switching:**
+    1. Set up authenticator app on new phone
+    2. Verify it works
+    3. Then remove old phone from account
+
+    **Or:** Use cloud backup to restore on new device
+  </Card>
+
+  <Card title="Traveling Abroad" icon="plane" color="#E51322">
+    **Prepare before you go:**
+    1. Ensure authenticator app works offline
+    2. Save recovery codes securely
+    3. Test MFA before departure
+    4. Keep backup phone number active
+  </Card>
+
+  <Card title="Switching Devices" icon="laptop-mobile" color="#1A4190">
+    **For trusted devices:**
+    1. Only mark devices as trusted if they're yours
+    2. Remove trust when selling/recycling device
+    3. Review trusted devices quarterly
+  </Card>
+
+  <Card title="Suspicious Activity" icon="triangle-exclamation" color="#E51322">
+    **If you receive unexpected MFA prompts:**
+    1. **Don't approve them!**
+    2. Change your password immediately
+    3. Review recent account activity
+    4. Contact IT Support
+  </Card>
+</CardGroup>
+
+---
+
+## Frequently Asked Questions
+
+<AccordionGroup>
+  <Accordion title="Is MFA required at SAS?" icon="question">
+    **For Faculty & Staff:** Yes, MFA is required on all SAS accounts for security compliance.
+
+    **For Students:** MFA may be required for certain grade levels and systems. Check with your division for specific requirements.
+
+    **For Parents:** MFA is optional but highly recommended for PowerSchool, Veracross, and other parent portals.
+
+    Even if not required, **we strongly recommend** enabling MFA for all accounts.
+  </Accordion>
+
+  <Accordion title="Which authenticator app should I use?" icon="mobile-screen-button">
+    **Recommended (in order):**
+    1. **Microsoft Authenticator** - Works seamlessly with SAS systems, has cloud backup, supports multiple accounts
+    2. **Google Authenticator** - Simple and reliable, but no cloud backup
+    3. **Authy** - Good alternative with cloud backup and multi-device support
+    4. **1Password** - If you already use 1Password for password management
+
+    **All of these are free and work well.** Choose whichever you're most comfortable with.
+  </Accordion>
+
+  <Accordion title="Can I use the same authenticator app for personal accounts?" icon="user">
+    **Yes!** Authenticator apps can manage multiple accounts:
+    - SAS accounts
+    - Personal email
+    - Social media
+    - Banking apps
+    - Any service that supports MFA
+
+    This is actually convenient - one app for all your MFA codes!
+  </Accordion>
+
+  <Accordion title="What if I don't have a smartphone?" icon="phone-slash">
+    **Alternative Options:**
+    1. **Hardware security key** - YubiKey or similar USB device
+    2. **SMS to basic phone** - If your phone can receive texts
+    3. **Printed recovery codes** - Keep in secure location
+    4. **Alternative device** - iPad or Android tablet with authenticator app
+
+    Contact IT Support to discuss which option works best for your situation.
+  </Accordion>
+
+  <Accordion title="Does MFA slow down my login?" icon="clock">
+    **Initial setup:** Takes 5-10 minutes once
+
+    **Daily use:** Adds about 5-10 seconds per login
+
+    **After marking devices as trusted:** Minimal additional time on your regular devices
+
+    **The tradeoff:** A few seconds for significantly better security is worth it!
+  </Accordion>
+
+  <Accordion title="Can I turn off MFA?" icon="toggle-off">
+    **For required accounts (staff):** No, MFA is mandatory for security compliance.
+
+    **For optional accounts:** Yes, but **we strongly discourage this**. MFA is one of the best protections against account compromise.
+
+    **If you must disable it:** Go to security settings and remove authentication methods, but understand you're putting your account at risk.
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## Related Resources
+
+<CardGroup cols={2}>
+  <Card
+    title="Password Best Practices"
+    icon="lock"
+    href="/guides/security/password-best-practices"
+    color="#1A4190"
+  >
+    Create strong passwords and manage resets
+  </Card>
+
+  <Card
+    title="Phishing Awareness"
+    icon="fish"
+    href="/guides/security/phishing-awareness"
+    color="#E51322"
+  >
+    Recognize and avoid phishing attacks
+  </Card>
+
+  <Card
+    title="Account Recovery"
+    icon="life-ring"
+    href="/guides/security/password-best-practices#password-reset-procedures"
+    color="#1A4190"
+  >
+    Reset your password if locked out
+  </Card>
+
+  <Card
+    title="Sophos Antivirus"
+    icon="shield-virus"
+    href="/guides/security/sophos"
+    color="#E51322"
+  >
+    Additional device security
+  </Card>
+</CardGroup>
+
+---
+
+## Need Help?
+
+<CardGroup cols={2}>
+  <Card
+    title="EdTech Support (Students)"
+    icon="chalkboard-user"
+    href="mailto:edtech@sas.edu.sg"
+    color="#1A4190"
+  >
+    For student accounts and classroom technology
+
+    [edtech@sas.edu.sg](mailto:edtech@sas.edu.sg)
+  </Card>
+
+  <Card
+    title="IT Support (Faculty & Staff)"
+    icon="laptop"
+    href="mailto:ithelp@sas.edu.sg"
+    color="#E51322"
+  >
+    For staff accounts and technical issues
+
+    [ithelp@sas.edu.sg](mailto:ithelp@sas.edu.sg)
+  </Card>
+</CardGroup>
+
+<Info>
+  **Pro Tip:** Set up MFA during a time when you're not in a hurry. Take 10 minutes to do it properly, and you'll have peace of mind knowing your account is secure!
+</Info>

@@ -56,6 +56,9 @@
           {
             "group": "Security",
             "pages": [
+              "guides/security/password-best-practices",
+              "guides/security/multi-factor-authentication",
+              "guides/security/phishing-awareness",
               "guides/security/sophos"
             ]
           },

@@ -1,0 +1,988 @@
+---
+title: "Phishing Awareness & Prevention"
+description: "Learn to identify phishing attacks, protect yourself from scams, and keep your SAS account secure"
+icon: "fish"
+---
+
+## What is Phishing?
+
+Phishing is a type of cyberattack where criminals impersonate legitimate organizations to trick you into revealing sensitive information like passwords, credit card numbers, or personal data.
+
+<Warning>
+  **Phishing is the #1 cause of security breaches** at schools and organizations worldwide. Learning to spot phishing attempts is one of the most important security skills you can develop.
+</Warning>
+
+<Note>
+  **The Eagle Way** - We protect our community by staying alert and informed. If something seems suspicious, it probably is. Trust your instincts and verify before you click.
+</Note>
+
+---
+
+## Types of Phishing Attacks
+
+### Email Phishing
+
+<Card title="Classic Email Scam" icon="envelope">
+  The most common type - fake emails that appear to come from trusted sources like:
+  - SAS IT Department
+  - Google or Microsoft
+  - Banks or payment services
+  - Delivery companies (DHL, FedEx)
+  - Popular websites (Amazon, Netflix)
+</Card>
+
+**Example:**
+```
+From: IT-Support@sas-edu-sg.com ⚠️ (fake domain)
+Subject: URGENT: Your account will be suspended
+
+Your SAS email account will be closed in 24 hours due to
+suspicious activity. Click here to verify your account immediately:
+
+[Verify Account Now] ⚠️ (malicious link)
+```
+
+### SMS Phishing (Smishing)
+
+<Card title="Text Message Scams" icon="message">
+  Phishing via text messages sent to your mobile phone.
+</Card>
+
+**Example:**
+```
+SAS-ALERT: Your student account has been locked.
+Verify your identity here: bit.ly/sas-verify123 ⚠️
+```
+
+### Voice Phishing (Vishing)
+
+<Card title="Phone Call Scams" icon="phone">
+  Scammers call pretending to be from IT support, banks, or government agencies.
+</Card>
+
+**Example:**
+> "Hello, this is calling from SAS IT Department. We've detected unusual activity on your account. Can you confirm your password so we can secure your account?"
+
+⚠️ **Red flag:** Real IT staff will NEVER ask for your password!
+
+### Spear Phishing
+
+<Card title="Targeted Attacks" icon="crosshairs">
+  Highly personalized phishing attacks targeted at specific individuals, often using information gathered from social media or data breaches.
+</Card>
+
+**Example:**
+```
+Hi Bryan,
+
+I saw your LinkedIn post about the upcoming Science Fair.
+I'd love to collaborate! Here's my project proposal document:
+
+[Download Proposal.docx] ⚠️ (contains malware)
+
+- Sarah Chen
+(not actually Sarah)
+```
+
+---
+
+## How to Spot Phishing
+
+### Red Flags in Emails
+
+<AccordionGroup>
+  <Accordion title="🚩 Suspicious Sender Email Address" icon="at">
+    **Look carefully at the sender's email:**
+
+    ❌ **Fake:**
+    - IT-Support@sas-edu-sg.com (missing dots)
+    - admin@sas.singapore.com (wrong domain)
+    - noreply@sas-edu.sg.verify.com (suspicious extra domain)
+
+    ✅ **Real:**
+    - username@sas.edu.sg
+    - edtech@sas.edu.sg
+    - ithelp@sas.edu.sg
+
+    **Tip:** Hover over the sender name (don't click) to see the actual email address.
+  </Accordion>
+
+  <Accordion title="🚩 Urgent or Threatening Language" icon="triangle-exclamation">
+    Phishing emails create panic to make you act without thinking:
+
+    ⚠️ **Red Flag Phrases:**
+    - "URGENT: Account will be suspended"
+    - "Immediate action required"
+    - "You have 24 hours to respond"
+    - "Your account has been compromised"
+    - "Verify your identity now or lose access"
+    - "Click here immediately"
+
+    **Real SAS communications:**
+    - Are professional and calm
+    - Don't threaten account closure
+    - Provide multiple contact options
+    - Give reasonable timeframes
+  </Accordion>
+
+  <Accordion title="🚩 Generic Greetings" icon="user-slash">
+    Phishing emails often use generic greetings:
+
+    ⚠️ **Suspicious:**
+    - "Dear User,"
+    - "Dear Student,"
+    - "Dear Account Holder,"
+    - "Hello,"
+
+    ✅ **Legitimate:**
+    - Uses your actual name
+    - Comes from someone you know
+    - References specific details about you
+
+    **Note:** Not all generic greetings are phishing, but combined with other red flags, it's suspicious.
+  </Accordion>
+
+  <Accordion title="🚩 Suspicious Links" icon="link">
+    **How to check links WITHOUT clicking:**
+
+    1. **Hover over the link** (don't click!)
+       - On computer: Hover mouse to see URL
+       - On phone: Long-press to see preview
+
+    2. **Look for red flags in the URL:**
+       ❌ sas-edu-sg-login.com (wrong domain)
+       ❌ tiny.url/sas123 (shortened URL hiding real destination)
+       ❌ sas.edu.sg.verify-account.com (extra subdomain)
+       ❌ http://sas.edu.sg (missing "s" - not secure)
+
+    3. **Legitimate SAS URLs:**
+       ✅ https://www.sas.edu.sg
+       ✅ https://launchpad.classlink.com
+       ✅ https://accounts.google.com
+
+    **Tip:** When in doubt, go directly to the website by typing the URL yourself instead of clicking links.
+  </Accordion>
+
+  <Accordion title="🚩 Unexpected Attachments" icon="paperclip">
+    **Be suspicious of attachments you weren't expecting:**
+
+    ⚠️ **Dangerous file types:**
+    - .exe (executable program)
+    - .zip (compressed file)
+    - .docm or .xlsm (documents with macros)
+    - .js (JavaScript file)
+    - .bat (batch file)
+
+    **Safe file types (but still verify sender):**
+    - .pdf
+    - .docx or .doc
+    - .xlsx or .xls
+    - .jpg or .png
+
+    **Before opening ANY attachment:**
+    1. Do you know the sender?
+    2. Were you expecting this file?
+    3. Does it make sense in context?
+    4. Is the file name suspicious? (Invoice_039485.exe)
+  </Accordion>
+
+  <Accordion title="🚩 Poor Grammar and Spelling" icon="spell-check">
+    Many phishing emails contain mistakes:
+
+    ⚠️ **Red flags:**
+    - Obvious typos and grammatical errors
+    - Awkward phrasing
+    - Inconsistent formatting
+    - Random capitalization
+    - Mix of fonts or colors
+
+    **Example:**
+    ```
+    Dear Valuable Customer,
+
+    You are account has been temporary suspended for
+    the security reasons. Please to click here for
+    verifying you're identity immediately.
+
+    Tanks you,
+    SAS IT Supports Team
+    ```
+
+    **Real SAS emails:**
+    - Professional writing
+    - Consistent formatting
+    - Proper grammar and spelling
+  </Accordion>
+
+  <Accordion title="🚩 Requests for Personal Information" icon="user-lock">
+    **SAS IT will NEVER ask for:**
+
+    ❌ Your password
+    ❌ Credit card numbers
+    ❌ Social security numbers
+    ❌ Bank account information
+    ❌ Security question answers
+    ❌ MFA codes or verification codes
+
+    **If an email asks for these, it's a scam - even if it looks official!**
+
+    ✅ **What real IT might ask for:**
+    - Your username (which isn't secret)
+    - Description of your problem
+    - Device information
+    - Error messages you're seeing
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## Real vs. Fake: Examples
+
+### Example 1: Fake IT Alert
+
+<Tabs>
+  <Tab title="🚫 Phishing Email">
+    ```
+    From: IT-Department@sasedu.org.sg ⚠️
+    Subject: ⚠️ URGENT - Account Verification Required
+
+    Dear Student,
+
+    We have detected unusual activity in you're SAS account.
+    You must verify your identity within 24 hours or your
+    account will be PERMANENTLY DELETED.
+
+    👉 Click here to verify: http://sas-verify.com/login ⚠️
+
+    If you do not respond, all your files and emails will
+    be lost forever.
+
+    SAS IT Security Team
+    ```
+
+    **Red Flags:**
+    - ❌ Wrong domain (@sasedu.org.sg instead of @sas.edu.sg)
+    - ❌ Generic greeting ("Dear Student")
+    - ❌ Urgent threatening language
+    - ❌ Grammar error ("you're" instead of "your")
+    - ❌ Suspicious link (not official SAS domain)
+    - ❌ Creates panic about data loss
+  </Tab>
+
+  <Tab title="✅ Legitimate Email">
+    ```
+    From: edtech@sas.edu.sg ✅
+    Subject: Password Reset Reminder
+
+    Hi Bryan,
+
+    This is a reminder that your password is due to expire
+    in 7 days (March 20, 2024). You can reset it at your
+    convenience using the self-service portal.
+
+    To change your password:
+    1. Visit https://portal.sas.edu.sg
+    2. Click on "Account Settings"
+    3. Select "Change Password"
+
+    If you need assistance, please contact EdTech Support
+    at edtech@sas.edu.sg or visit the Help Desk.
+
+    Best regards,
+    EdTech Support Team
+    Singapore American School
+    ```
+
+    **Legitimate Signs:**
+    - ✅ Correct domain (@sas.edu.sg)
+    - ✅ Uses your actual name
+    - ✅ Calm, professional tone
+    - ✅ Provides multiple contact methods
+    - ✅ Gives reasonable timeframe (7 days)
+    - ✅ Official SAS domain in link
+    - ✅ Clear instructions
+  </Tab>
+</Tabs>
+
+### Example 2: Fake Google Alert
+
+<Tabs>
+  <Tab title="🚫 Phishing Email">
+    ```
+    From: no-reply@google-security-alert.com ⚠️
+    Subject: Security Alert: New Device Login
+
+    Someone just used your password to sign in to your
+    Google Account from a device we don't recognize.
+
+    Location: Singapore
+    Device: Windows PC
+    Time: Today at 2:15 PM
+
+    If this was you, ignore this message.
+
+    If this wasn't you, click here to secure your account:
+    [Secure My Account] ⚠️
+
+    Google Security Team
+    ```
+
+    **Red Flags:**
+    - ❌ Suspicious domain (not @google.com)
+    - ❌ Creates urgency and fear
+    - ❌ Vague details
+    - ❌ Action button (real Google uses links, not buttons)
+  </Tab>
+
+  <Tab title="✅ Real Google Alert">
+    ```
+    From: no-reply@accounts.google.com ✅
+    Subject: Security alert
+
+    Hi Bryan,
+
+    Your Google Account (bryan.smith@student.sas.edu.sg)
+    was just used to sign in from a new Windows device.
+
+    Wednesday, March 13, 2024 2:15 PM SGT
+    Singapore
+
+    You're getting this email to make sure it was you.
+
+    Check activity:
+    https://myaccount.google.com/notifications
+
+    If this was you
+    You don't need to do anything.
+
+    If this wasn't you
+    Someone else might be using your account. Go to your
+    Account Activity to secure your account.
+
+    Sincerely,
+    The Google Accounts team
+    ```
+
+    **Legitimate Signs:**
+    - ✅ Real Google domain
+    - ✅ Specific email address mentioned
+    - ✅ Exact timestamp and location
+    - ✅ Official Google URL
+    - ✅ Professional formatting
+    - ✅ Clear next steps for both scenarios
+  </Tab>
+</Tabs>
+
+---
+
+## What To Do If You Encounter Phishing
+
+### If You Receive a Suspicious Email
+
+<Steps>
+  <Step title="Don't Click Anything">
+    **Do NOT:**
+    - Click any links
+    - Open attachments
+    - Reply to the email
+    - Download anything
+    - Enter any information
+  </Step>
+
+  <Step title="Verify the Source">
+    If the email claims to be from SAS:
+    - Go directly to the SAS website (type URL yourself)
+    - Contact the department directly using official contact info
+    - Check with EdTech or IT Support
+
+    **Example:** Email says your ClassLink account needs verification?
+    - Don't click the link
+    - Go directly to launchpad.classlink.com
+    - Log in normally
+    - Check if there are any real issues
+  </Step>
+
+  <Step title="Report the Phishing Attempt">
+    **In Gmail:**
+    - Click the three dots (⋮) next to Reply
+    - Select "Report phishing"
+    - Google will investigate
+
+    **In Outlook:**
+    - Click "Report message" in the ribbon
+    - Select "Phishing"
+
+    **To SAS IT:**
+    Forward the suspicious email to:
+    - **EdTech:** edtech@sas.edu.sg
+    - **IT Support:** ithelp@sas.edu.sg
+
+    Include subject line: "Phishing Report"
+  </Step>
+
+  <Step title="Delete the Email">
+    After reporting, delete the phishing email from your inbox and trash folder.
+  </Step>
+
+  <Step title="Warn Others (If Appropriate)">
+    If the phishing email is being sent to multiple people at SAS:
+    - Alert your teacher or supervisor
+    - Let friends know if they might receive it too
+    - IT will send out community warnings for major campaigns
+  </Step>
+</Steps>
+
+### If You Clicked a Phishing Link
+
+<Warning>
+  **Act quickly! Time matters when dealing with compromised accounts.**
+</Warning>
+
+<Steps>
+  <Step title="Don't Panic">
+    Clicking a link might not cause immediate damage if you didn't enter information. But act quickly.
+  </Step>
+
+  <Step title="Did You Enter Your Password?">
+    **If YES:**
+    1. Change your password IMMEDIATELY
+       - Go directly to https://portal.sas.edu.sg
+       - Change password on all accounts using that password
+       - Use a new, unique, strong password
+
+    2. Enable MFA if you haven't already
+       - [Set up Multi-Factor Authentication](/guides/security/multi-factor-authentication)
+
+    3. Check recent account activity
+       - Look for unauthorized logins
+       - Review recent emails sent from your account
+       - Check for forwarding rules or filters
+
+    **If NO:**
+    - You're probably okay
+    - Still run antivirus scan (see next step)
+    - Be cautious for the next few days
+  </Step>
+
+  <Step title="Scan Your Device">
+    Run a full antivirus scan:
+    - **SAS Devices:** Use Sophos ([see guide](/guides/security/sophos))
+    - **Personal Devices:** Use your antivirus software
+    - Let the scan complete fully
+  </Step>
+
+  <Step title="Report the Incident">
+    Contact support immediately:
+    - **Students:** edtech@sas.edu.sg
+    - **Staff:** ithelp@sas.edu.sg
+
+    Tell them:
+    - You clicked a phishing link
+    - Whether you entered your password
+    - What actions you've already taken
+  </Step>
+
+  <Step title="Monitor Your Accounts">
+    For the next few weeks:
+    - Watch for unusual account activity
+    - Check for unauthorized purchases
+    - Look for strange emails sent from your account
+    - Report anything suspicious immediately
+  </Step>
+</Steps>
+
+### If You Gave Out Your Password
+
+<Warning>
+  **This is a security emergency. Act immediately!**
+</Warning>
+
+<Steps>
+  <Step title="Change Your Password IMMEDIATELY">
+    1. Go to https://portal.sas.edu.sg (type it yourself, don't click links)
+    2. Change your SAS password right away
+    3. Change passwords on ANY other accounts using the same password
+    4. Create new, unique passwords for each account
+  </Step>
+
+  <Step title="Enable Multi-Factor Authentication">
+    Add MFA to all your accounts right away:
+    - [SAS MFA Setup Guide](/guides/security/multi-factor-authentication)
+    - Even if attacker has your password, MFA will block them
+  </Step>
+
+  <Step title="Contact IT Support URGENTLY">
+    - **Students:** edtech@sas.edu.sg
+    - **Staff:** ithelp@sas.edu.sg
+    - **Phone:** +65 6363 3403
+
+    IT needs to:
+    - Check for unauthorized access
+    - Review account activity
+    - Look for data breaches
+    - Protect other accounts
+  </Step>
+
+  <Step title="Check All Your Accounts">
+    Review:
+    - Email sent from your account
+    - Files in Google Drive / OneDrive
+    - Recent logins and locations
+    - Connected apps and permissions
+    - Forwarding rules or filters
+  </Step>
+
+  <Step title="Alert Your Contacts">
+    If your email was compromised:
+    - Warn your contacts that they might receive phishing emails from your account
+    - Post a notice if the attacker sent emails as you
+  </Step>
+</Steps>
+
+---
+
+## Prevention Strategies
+
+### Protect Yourself
+
+<CardGroup cols={2}>
+  <Card title="Think Before You Click" icon="mouse-pointer" color="#1A4190">
+    **Pause and ask:**
+    - Do I know the sender?
+    - Was I expecting this?
+    - Does this make sense?
+    - Is this urgent request legitimate?
+  </Card>
+
+  <Card title="Verify Suspicious Requests" icon="magnifying-glass" color="#E51322">
+    **When in doubt:**
+    - Go directly to the website
+    - Call using official phone numbers
+    - Ask in person
+    - Contact IT support
+  </Card>
+
+  <Card title="Use Strong, Unique Passwords" icon="key" color="#1A4190">
+    **Password security:**
+    - Different password for every account
+    - 12+ characters long
+    - Use a password manager
+    - [Password best practices](/guides/security/password-best-practices)
+  </Card>
+
+  <Card title="Enable MFA Everywhere" icon="shield-check" color="#E51322">
+    **Add extra protection:**
+    - Turn on MFA for all accounts
+    - Use authenticator apps
+    - Keep backup codes safe
+    - [MFA setup guide](/guides/security/multi-factor-authentication)
+  </Card>
+
+  <Card title="Keep Software Updated" icon="download" color="#1A4190">
+    **Update regularly:**
+    - Operating system
+    - Web browsers
+    - Antivirus software
+    - Apps and programs
+  </Card>
+
+  <Card title="Be Cautious on Social Media" icon="share-nodes" color="#E51322">
+    **Limit what you share:**
+    - Don't post personal information
+    - Use privacy settings
+    - Think before sharing
+    - Attackers use social media for spear phishing
+  </Card>
+</CardGroup>
+
+### Safe Browsing Habits
+
+<Steps>
+  <Step title="Look for HTTPS">
+    Before entering sensitive information, check that the URL starts with **https://** (with the "s")
+
+    The padlock icon 🔒 in the address bar indicates a secure connection.
+  </Step>
+
+  <Step title="Type URLs Directly">
+    Instead of clicking links in emails:
+    - Type the website address yourself
+    - Use bookmarks for frequently visited sites
+    - Use official apps instead of web browsers
+  </Step>
+
+  <Step title="Be Wary of Pop-ups">
+    - Don't click pop-ups claiming you have viruses
+    - Close suspicious pop-ups using the X or Alt+F4
+    - Don't call phone numbers in pop-ups
+    - Real warnings come from your antivirus software
+  </Step>
+
+  <Step title="Review Permissions">
+    Periodically check:
+    - Which apps can access your email
+    - Connected accounts and services
+    - Browser extensions and add-ons
+    - Remove anything you don't recognize
+  </Step>
+</Steps>
+
+---
+
+## Common Phishing Scenarios at Schools
+
+### Scenario 1: Fake IT Support
+
+**The Scam:**
+> "Your SAS email is over quota. Click here to expand your storage or your account will be suspended."
+
+**Why It Works:**
+- Creates urgency (account suspension)
+- Seems like a legitimate IT issue
+- Offers a solution (expand storage)
+
+**How to Spot It:**
+- SAS doesn't suspend accounts for storage issues
+- IT would contact you through official channels
+- Links go to fake websites
+
+**What To Do:**
+- Don't click the link
+- Check your actual storage (go directly to Gmail)
+- Contact edtech@sas.edu.sg if concerned
+
+### Scenario 2: Fake Scholarship/Financial Aid
+
+**The Scam:**
+> "Congratulations! You've been selected for a scholarship. Fill out this form with your personal information to claim your award."
+
+**Why It Works:**
+- Exciting news (scholarship money)
+- Targets students and parents
+- Seems official with logos and formatting
+
+**How to Spot It:**
+- Unsolicited scholarship offers
+- Asks for personal/financial information
+- Requires immediate response
+- Poor grammar or suspicious sender
+
+**What To Do:**
+- Verify with SAS Admissions or Counseling office
+- Research the scholarship independently
+- Don't provide personal information
+
+### Scenario 3: Fake Document Share
+
+**The Scam:**
+> "Sarah Chen shared a document with you: Science Project Notes.docx. Click here to view."
+
+**Why It Works:**
+- Looks like real Google Drive notification
+- Uses name of actual classmate
+- Relevant subject (Science Project)
+
+**How to Spot It:**
+- Check sender email carefully
+- Hover over link to see real destination
+- Suspicious domain (not google.com)
+
+**What To Do:**
+- Go directly to Google Drive
+- Ask Sarah in person if she shared something
+- Don't click suspicious links
+
+### Scenario 4: Fake Administrator Request
+
+**The Scam:**
+> "From: Dr. Johnson (Principal)
+> Please review this urgent document regarding school policy changes and reply with your thoughts by end of day."
+
+**Why It Works:**
+- Appears to come from authority figure
+- Creates urgency (end of day deadline)
+- Looks official
+
+**How to Spot It:**
+- Check email address (might be similar but not exact)
+- Unusual request method (real admin would use official channels)
+- Generic greeting despite "personal" message
+
+**What To Do:**
+- Verify through official school channels
+- Call the principal's office
+- Check the school's official communication platforms
+
+---
+
+## Teaching Others About Phishing
+
+### Help Family Members Stay Safe
+
+<Accordion title="Tips for Parents & Guardians">
+  **Common scams targeting parents:**
+  - Fake school payment requests
+  - Scholarship scams
+  - Fake emergency messages about children
+  - Fake parent portal logins
+
+  **How to help:**
+  1. Share this guide with your family
+  2. Practice identifying phishing together
+  3. Create a family plan for verifying suspicious messages
+  4. Set up a family password only you know (to verify real emergency calls)
+</Accordion>
+
+<Accordion title="Tips for Younger Siblings">
+  **Explain in simple terms:**
+  - "Bad people send fake emails to trick you"
+  - "Never share your password with anyone online"
+  - "Always ask an adult before clicking links in emails"
+  - "If something seems too good to be true, it probably is"
+
+  **Practice together:**
+  - Show examples of phishing emails
+  - Play "spot the phishing" games online
+  - Make it fun and educational
+</Accordion>
+
+---
+
+## Phishing Quiz
+
+Test your knowledge! Can you spot the phishing attempts?
+
+<AccordionGroup>
+  <Accordion title="Email 1: Is this phishing?" icon="envelope">
+    ```
+    From: noreply@google.com
+    Subject: Unusual sign-in activity
+
+    Someone recently tried to sign in to your Google Account
+    bryan.smith@student.sas.edu.sg from a new device.
+
+    Location: Singapore
+    Device: iPhone
+    Time: March 13, 2024, 2:45 PM
+
+    If this was you, you don't need to do anything.
+
+    If this wasn't you, secure your account:
+    https://myaccount.google.com/security
+    ```
+
+    **Answer:** ✅ This is LEGITIMATE
+    - Correct Google domain
+    - Specific details (email, time, location)
+    - Official Google URL
+    - Professional formatting
+    - Calm tone, no panic
+  </Accordion>
+
+  <Accordion title="Email 2: Is this phishing?" icon="envelope">
+    ```
+    From: admin@sas-edu.sg.verify.com
+    Subject: ⚠️ ACTION REQUIRED: Verify your account NOW
+
+    Dear User,
+
+    Your SAS account will be deleted in 12 hours because
+    we detected suspicious activity. You must verify your
+    identity immediately to prevent data loss.
+
+    >> CLICK HERE TO VERIFY ACCOUNT <<
+
+    Do not ignore this message or you will lose access
+    permanently.
+
+    SAS IT Department
+    ```
+
+    **Answer:** 🚫 This is PHISHING
+    - Suspicious domain (sas-edu.sg.verify.com)
+    - Generic greeting ("Dear User")
+    - Urgent threats (12 hours, deletion)
+    - All caps "ACTION REQUIRED"
+    - Creates panic
+    - Poor grammar
+  </Accordion>
+
+  <Accordion title="Email 3: Is this phishing?" icon="envelope">
+    ```
+    From: edtech@sas.edu.sg
+    Subject: Reminder: Parent-Teacher Conference Sign-ups
+
+    Hi Bryan,
+
+    This is a reminder that parent-teacher conference
+    sign-ups are now open. Please sign up at your
+    convenience through the parent portal:
+
+    https://portal.sas.edu.sg/conferences
+
+    Sign-ups close on March 25, 2024.
+
+    If you have questions, please contact me at
+    edtech@sas.edu.sg or call 6363-3403.
+
+    Best regards,
+    Ms. Thompson
+    EdTech Coordinator
+    ```
+
+    **Answer:** ✅ This is LEGITIMATE
+    - Correct SAS domain
+    - Personal name used
+    - Professional tone
+    - Reasonable timeframe
+    - Official SAS URL
+    - Multiple contact methods provided
+    - Proper signature
+  </Accordion>
+
+  <Accordion title="Email 4: Is this phishing?" icon="envelope">
+    ```
+    From: scholarships@education-grants.org
+    Subject: You've Won a $5,000 Scholarship!
+
+    Congratulations!!!
+
+    You have been randomly selected to receive a $5,000
+    scholarship for being an outstanding student. To claim
+    your prize, fill out this form immediately:
+
+    [Claim Your Scholarship]
+
+    We need:
+    - Full name and date of birth
+    - Parents' names and contact info
+    - Bank account for direct deposit
+    - Social security number
+
+    This offer expires in 48 hours!
+    ```
+
+    **Answer:** 🚫 This is PHISHING
+    - Unsolicited scholarship
+    - "Randomly selected" (suspicious)
+    - Asks for sensitive info (bank, SSN)
+    - Creates urgency (48 hours)
+    - Multiple exclamation marks
+    - Too good to be true
+  </Accordion>
+</AccordionGroup>
+
+**How did you do?**
+- 4/4: Phishing Expert! 🌟
+- 3/4: Great awareness!
+- 2/4: Keep learning!
+- 0-1/4: Review this guide and practice more
+
+---
+
+## Resources
+
+### SAS Reporting Channels
+
+<CardGroup cols={2}>
+  <Card
+    title="EdTech Support"
+    icon="chalkboard-user"
+    href="mailto:edtech@sas.edu.sg"
+    color="#1A4190"
+  >
+    Report phishing targeting students
+
+    edtech@sas.edu.sg
+  </Card>
+
+  <Card
+    title="IT Support"
+    icon="laptop"
+    href="mailto:ithelp@sas.edu.sg"
+    color="#E51322"
+  >
+    Report phishing targeting staff
+
+    ithelp@sas.edu.sg
+  </Card>
+</CardGroup>
+
+### External Resources
+
+<AccordionGroup>
+  <Accordion title="Report Phishing to Authorities" icon="flag">
+    **Singapore:**
+    - Singapore Police Force: www.police.gov.sg
+    - Cyber Security Agency: www.csa.gov.sg
+    - ScamShield App: Report and block scams
+
+    **International:**
+    - Federal Trade Commission (US): reportfraud.ftc.gov
+    - Action Fraud (UK): actionfraud.police.uk
+  </Accordion>
+
+  <Accordion title="Learn More About Phishing" icon="book">
+    **Educational Resources:**
+    - Google's Phishing Quiz: phishingquiz.withgoogle.com
+    - OpenDNS Phishing Quiz: opendns.com/phishing-quiz
+    - Kaspersky Phishing Test: phishing-quiz.kaspersky.com
+
+    **Stay Updated:**
+    - Check email security bulletins from SAS IT
+    - Follow security blogs
+    - Subscribe to security newsletters
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## Related Security Guides
+
+<CardGroup cols={2}>
+  <Card
+    title="Password Best Practices"
+    icon="lock"
+    href="/guides/security/password-best-practices"
+    color="#1A4190"
+  >
+    Create strong passwords and recover accounts
+  </Card>
+
+  <Card
+    title="Multi-Factor Authentication"
+    icon="mobile-screen"
+    href="/guides/security/multi-factor-authentication"
+    color="#E51322"
+  >
+    Add an extra layer of account protection
+  </Card>
+
+  <Card
+    title="Sophos Antivirus"
+    icon="shield-virus"
+    href="/guides/security/sophos"
+    color="#1A4190"
+  >
+    Protect your device from malware
+  </Card>
+
+  <Card
+    title="Email Security"
+    icon="envelope-circle-check"
+    href="/guides/accounts/email"
+    color="#E51322"
+  >
+    Secure your SAS email account
+  </Card>
+</CardGroup>
+
+---
+
+<Info>
+  **Remember:** When in doubt, don't click! Take a moment to verify before you act. It's always better to be cautious than to become a victim of phishing.
+</Info>
+
+<Tip>
+  **The Eagle Way:** We protect our community by staying vigilant and helping each other recognize threats. If you spot something suspicious, report it – you might prevent others from becoming victims!
+</Tip>
