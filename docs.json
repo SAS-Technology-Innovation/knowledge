@@ -54,6 +54,15 @@
             ]
           },
           {
+            "group": "AI Resources",
+            "pages": [
+              "guides/ai-resources/ai-tools-overview",
+              "guides/ai-resources/gemini-guide",
+              "guides/ai-resources/ai-ethics",
+              "guides/ai-resources/ai-academic-integrity"
+            ]
+          },
+          {
             "group": "Security",
             "pages": [
               "guides/security/password-best-practices",
