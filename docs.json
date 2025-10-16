@@ -127,11 +127,6 @@
     "global": {
       "anchors": [
         {
-          "anchor": "AI Resources",
-          "href": "/guides/ai-resources/ai-tools-overview",
-          "icon": "brain-circuit"
-        },
-        {
           "anchor": "SAS Website",
           "href": "https://www.sas.edu.sg",
           "icon": "house"
