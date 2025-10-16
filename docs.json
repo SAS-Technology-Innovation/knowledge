@@ -18,6 +18,15 @@
             "pages": [
               "index"
             ]
+          },
+          {
+            "group": "AI Resources",
+            "pages": [
+              "ai-resources/ai-tools-overview",
+              "ai-resources/gemini-guide",
+              "ai-resources/ai-ethics",
+              "ai-resources/ai-academic-integrity"
+            ]
           }
         ]
       },
