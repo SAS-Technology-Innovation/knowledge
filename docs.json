@@ -82,10 +82,10 @@
           {
             "group": "AI at SAS",
             "pages": [
-              "guides/ai-resources/ai-tools-overview",
-              "guides/ai-resources/gemini-guide",
-              "guides/ai-resources/ai-ethics",
-              "guides/ai-resources/ai-academic-integrity"
+              "ai-resources/ai-tools-overview",
+              "ai-resources/gemini-guide",
+              "ai-resources/ai-ethics",
+              "ai-resources/ai-academic-integrity"
             ]
           }
         ]
